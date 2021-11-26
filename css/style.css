@@ -1,13 +1,10 @@
+
 :root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-  --accent: #1762a7;
-  --accent-hover: #2180d8;
-  --light: #fff;
-  --light-hover: #adadad;
-  --blue: #3856b0;
-  --red: #b038a0;
-  --purple: #3a38b0;
+  --black: #172b4d;
+  --black-light: #344563;
+  --accent: #6070ff;
+  --accent-light: #7f8cff;
+  --gray: #e5e5e5;
 }
 
 * {
@@ -16,4 +13,35 @@
 
 a {
   cursor: pointer;
+}
+
+body {
+  background-color:var(--gray);
+}
+.intro {
+  background-image: url("../images/header-bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.bg {
+ background-color: #fff;
+}
+li {
+  list-style: none;  
+}
+.intro h1{
+  color: var(--black);
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+.intro p {
+  color: var(--black-light);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.intro a {
+  color: var(--accent-light);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
