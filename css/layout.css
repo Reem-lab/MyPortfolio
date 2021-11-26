@@ -1,3 +1,41 @@
-* {
+*,
+body,
+body * {
   outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.intro {
+  padding: 0 1.5rem;
+  min-height: 30rem;
+  padding-top: 4.2rem;
+  border-radius: 0 0 0 100px;
+}
+
+.heading {
+  max-width: 18rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  margin-top: 0.6rem;
+}
+
+.intro > * {
+  margin-bottom: 0.6rem;
 }
