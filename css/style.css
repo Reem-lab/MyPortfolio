@@ -16,29 +16,35 @@ a {
 }
 
 body {
-  background-color:var(--gray);
+  background-color: var(--gray);
 }
+
 .intro {
   background-image: url("../images/header-bg.svg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .bg {
- background-color: #fff;
+  background-color: #fff;
 }
+
 li {
-  list-style: none;  
+  list-style: none;
 }
-.intro h1{
+
+.intro h1 {
   color: var(--black);
   font-size: 2rem;
   line-height: 2.6rem;
 }
+
 .intro p {
   color: var(--black-light);
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
+
 .intro a {
   color: var(--accent-light);
   font-size: 0.8rem;
