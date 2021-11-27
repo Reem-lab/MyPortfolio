@@ -41,7 +41,8 @@ body {
   margin-top: 0.6rem;
 }
 
-.intro > * + *:not(button) {
+.intro > * + *:not(button),
+.content > * + *:not(button) {
   margin-top: 0.6rem;
 }
 
@@ -181,12 +182,12 @@ button:disabled {
   border-radius: 50%;
 }
 
-.tags li:not(:last-child) {
-  margin-right: 0.6rem;
+ul.info li {
+  font-size: 0.5rem;
 }
 
-.tags a {
-  padding: 0.2rem 0.6rem;
+.tags li:not(:last-child) {
+  margin-right: 0.6rem;
 }
 
 /* card/end */
@@ -196,6 +197,7 @@ button:disabled {
 .aboutMe {
   border-top-right-radius: 5rem;
   padding-bottom: 5.7rem;
+  padding-top: 5rem;
 }
 
 .aboutMe button {
@@ -226,10 +228,4 @@ details[open] .summary {
 
 .lang > img {
   height: 3rem;
-}
-
-/* aboutMe/end */
-
-ul.info li {
-  font-size: 0.5rem;
 }
