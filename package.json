@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrRamoun/WEBDEV.git"
+    "url": "git+https://github.com/MrReem/WEBDEV.git"
   },
-  "author": "Ramoun",
+  "author": "Reem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MrRamoun/WEBDEV/issues"
+    "url": "https://github.com/MrReem/WEBDEV/issues"
   },
-  "homepage": "https://github.com/MrRamoun/WEBDEV#readme"
+  "homepage": "https://github.com/MrReem/WEBDEV#readme"
 }
