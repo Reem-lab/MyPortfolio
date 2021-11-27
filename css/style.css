@@ -136,11 +136,11 @@ button:disabled {
 
 .intro a,
 .aboutMe a,
-.tags a {
+.tags li {
   color: var(--accent, #7f8cff);
 }
 
-.tags a {
+.tags li {
   background-color: var(--blue-light, #ebebff);
   font-size: 0.6rem;
   letter-spacing: 0.03rem;
