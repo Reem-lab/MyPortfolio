@@ -1,10 +1,13 @@
-
 :root {
   --black: #172b4d;
   --black-light: #344563;
   --accent: #6070ff;
-  --accent-light: #7f8cff;
-  --gray: #e5e5e5;
+  --accent-light: #555fb3;
+  --blue: #396df2;
+  --blue-light: #ebebff;
+  --gray: #7a869a;
+  --gray-light: #e5e5e5;
+  --white: #fff;
 }
 
 * {
@@ -16,7 +19,7 @@ a {
 }
 
 body {
-  background-color: var(--gray);
+  background-color: var(--gray-light, #e5e5e5);
 }
 
 .intro {
@@ -26,17 +29,29 @@ body {
 }
 
 .bg {
-  background-color: #fff;
+  background-color: var(--white, #fff);
 }
 
-li {
+li,
+summary {
   list-style: none;
 }
 
-.intro h1 {
-  color: var(--black);
+.intro .heading,
+.aboutMe .heading {
+  color: var(--black, #172b4d);
   font-size: 2rem;
   line-height: 2.6rem;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.list li * {
+  font-size: 0.65rem;
+  font-weight: 600;
 }
 
 .intro p {
@@ -50,4 +65,91 @@ li {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+button {
+  color: var(--blue, #396df2);
+}
+
+button:hover {
+  color: var(--white, #fff);
+  background-color: var(--accent, #6070ff);
+}
+
+button:active {
+  background-color: #2230d2;
+}
+
+button:disabled {
+  background-color: var(--white, #fff);
+  color: #5e6c84;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.black {
+  color: var(--black, #172b4d);
+}
+
+.gray {
+  color: var(--gray, #7a869a);
+}
+
+.highlight {
+  color: var(--black-light, #344563);
+}
+
+.active {
+  color: var(--accent);
+}
+
+.line-height {
+  line-height: 0.8rem;
+}
+
+.intro p,
+.intro a,
+.aboutMe a,
+.aboutMe p {
+  font-size: 0.8rem;
+}
+
+.intro p,
+.aboutMe p {
+  color: var(--black-light, #344563);
+  line-height: 1.2rem;
+}
+
+.intro a,
+.aboutMe a,
+.tags li {
+  color: var(--accent, #7f8cff);
+}
+
+.tags li {
+  background-color: var(--blue-light, #ebebff);
+  font-size: 0.6rem;
+  letter-spacing: 0.03rem;
+}
+
+.content p {
+  font-size: 0.75rem;
+}
+
+.lang {
+  background: #f7f7f9;
 }

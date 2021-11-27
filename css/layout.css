@@ -29,6 +29,15 @@ body {
   max-width: 18rem;
 }
 
+.aboutMe .heading {
+  width: 4rem;
+}
+
+.lang > * {
+  padding: 0.5rem 0;
+  padding-left: 0.5rem;
+}
+
 .social {
   display: flex;
   justify-content: space-between;
@@ -36,6 +45,203 @@ body {
   margin-top: 0.6rem;
 }
 
-.intro > * {
-  margin-bottom: 0.6rem;
+.intro > * + *:not(button),
+.content > * + *:not(button) {
+  margin-top: 0.6rem;
+}
+
+.resume {
+  max-width: 7rem;
+}
+
+button {
+  margin-top: 1.3rem;
+  padding: 0.6rem;
+  border: 1px solid #7f8cff;
+}
+
+button:hover {
+  box-shadow: 0 0.4rem 0.8rem rgba(64, 83, 252, 0.24);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+button:disabled {
+  border: 1px solid #c1c7d0;
+  box-shadow: none;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 4.4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.cross-center {
+  align-items: center;
+}
+
+.main-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.margin-seprator {
+  margin-top: 5.7rem;
+}
+
+.round-borders {
+  border-radius: 0.4rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Generl Rules/end */
+
+/* Wrapper/start */
+
+.wrapper {
+  padding: 0 1.3rem;
+}
+
+/* Wrapper/end */
+
+/* header/start */
+
+.nav-menu {
+  display: none;
+}
+
+.main-nav:hover {
+  cursor: pointer;
+}
+
+.main-nav ul li span {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--accent);
+  top: 1.8rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.main-nav ul li:hover span {
+  opacity: 1;
+}
+
+.wrapper p {
+  max-width: 23rem;
+}
+
+/* intro/end */
+
+/* works/start */
+
+.works {
+  margin-top: 5.7rem;
+  margin-bottom: 5.7rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.works .wrapper {
+  max-width: 30rem;
+}
+
+/* card/start */
+
+.card {
+  gap: 0.6rem;
+  padding: 0.8rem;
+  border: 2px solid #dfe1e6;
+  border-radius: 0.8rem;
+  max-width: 15rem;
+}
+
+.ellipse::after {
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 0.6rem;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+}
+
+ul.info li {
+  font-size: 0.5rem;
+}
+
+.tags li:not(:last-child) {
+  margin-right: 0.6rem;
+}
+
+/* card/end */
+
+/* aboutMe/start */
+
+.aboutMe {
+  border-top-right-radius: 5rem;
+  padding-bottom: 5.7rem;
+  padding-top: 5rem;
+}
+
+.aboutMe button {
+  flex-basis: 100%;
+  margin-bottom: 1.3rem;
+}
+
+.summary {
+  border-bottom: 1px solid #dfe1e6;
+  padding: 1rem 0.5rem;
+}
+
+.summary:hover {
+  cursor: pointer;
+}
+
+details[open] .arrow {
+  transform: rotate(90deg);
+}
+
+details[open] .summary {
+  border: none;
+}
+
+.languages {
+  margin-top: 0.6rem;
+}
+
+.lang > img {
+  height: 3rem;
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-bottom: 1.5rem;
 }
