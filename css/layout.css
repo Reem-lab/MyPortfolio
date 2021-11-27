@@ -29,6 +29,10 @@ body {
   max-width: 18rem;
 }
 
+.aboutMe .heading {
+  width: 4rem;
+}
+
 .lang > * {
   padding: 0.5rem 0;
   padding-left: 0.5rem;
@@ -44,6 +48,10 @@ body {
 .intro > * + *:not(button),
 .content > * + *:not(button) {
   margin-top: 0.6rem;
+}
+
+.resume {
+  max-width: 7rem;
 }
 
 button {
@@ -228,4 +236,12 @@ details[open] .summary {
 
 .lang > img {
   height: 3rem;
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-bottom: 1.5rem;
 }
