@@ -59,6 +59,7 @@ button {
   padding: 0.6rem;
   border: 1px solid #7f8cff;
   align-self: flex-start;
+  margin-left: 10px;
 }
 
 button:hover {
