@@ -153,3 +153,31 @@ button:disabled {
 .lang {
   background: #f7f7f9;
 }
+
+footer {
+  background-color: var(--white);
+}
+
+.footer .heading {
+  font-size: 40px;
+  color: var(--white);
+  text-align: center;
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  color: var(--white);
+  font-weight: normal;
+}
+
+.footer {
+  background-image: url("../images/footer-bg.svg");
+  background-color: var(--accent);
+  background-repeat: no-repeat;
+  background-size: 110% 96%;
+}
+
+*::placeholder {
+  font-family: "Poppins", sans-serif;
+}
