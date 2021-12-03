@@ -405,6 +405,8 @@ summary {
   }
 
   .end {
+    /*width: 100vh;
+    margin: 100px;*/
     background-image: url("../images/footer-bg.svg");
     background-size: 100%;
     background-color: var(--accent);
