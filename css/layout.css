@@ -294,9 +294,22 @@ summary {
     display: none;
   }
 
+  .intro {
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  }
+
   .ul-menu {
     display: flex;
     justify-content: space-between;
+    transition: color 2s, font-size 1s;
+  }
+
+  .ul-menu :hover {
+    color: #396df2;
+    font-size: 22px;
   }
 
   .main-nav {
@@ -305,6 +318,15 @@ summary {
 
   .header {
     padding: 40px 120px;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    margin: 100px;
+  }
+
+  .wrapper p {
+    margin-bottom: 25px;
   }
 
   .intro .wrapper p {
@@ -316,17 +338,10 @@ summary {
     min-height: 90vh;
   }
 
-  .intro {
-    display: flex;
-    justify-content: center;
-  }
-
   .social {
     width: 20%;
   }
-}
 
-@media screen and (min-width: 992px) {
   .card {
     flex-direction: row;
     max-width: 100%;
@@ -342,6 +357,12 @@ summary {
     max-width: 100%;
   }
 
+  summary {
+    max-width: 100%;
+    border-bottom: 1px solid #DFE1E6 ; 
+    padding-bottom: 23px;
+  }
+
   button {
     margin-left: 0;
   }
@@ -352,13 +373,6 @@ summary {
 
   .row-reverse {
     flex-direction: row-reverse;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .wrapper {
-    flex-direction: row;
-    margin: 100px;
   }
 
   .languages {
@@ -373,11 +387,8 @@ summary {
     text-transform: capitalize;
   }
 
-  .arrow {
-    display: none;
-  }
-
   .qualifications {
+    color:  #344563;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -405,8 +416,6 @@ summary {
   }
 
   .end {
-    /*width: 100vh;
-    margin: 100px;*/
     background-image: url("../images/footer-bg.svg");
     background-size: 100%;
     background-color: var(--accent);

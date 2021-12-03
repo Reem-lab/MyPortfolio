@@ -181,9 +181,3 @@ footer {
 *::placeholder {
   font-family: "Poppins", sans-serif;
 }
-
-@media screen and (min-width: 992px) and (max-width: 1100px) {
-  .intro {
-    background-size: 100%;
-  }
-}
