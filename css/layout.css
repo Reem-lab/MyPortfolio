@@ -157,10 +157,6 @@ button:disabled {
   max-width: 23rem;
 }
 
-/* intro/end */
-
-/* works/start */
-
 .works {
   margin-top: 5.7rem;
   margin-bottom: 5.7rem;
@@ -171,8 +167,6 @@ button:disabled {
 .works .wrapper {
   max-width: 30rem;
 }
-
-/* card/start */
 
 .card {
   gap: 0.6rem;
@@ -192,6 +186,14 @@ button:disabled {
   border-radius: 50%;
 }
 
+.wrapper ul li {
+  transition: transform  0.5s;
+}
+
+li :hover {
+  transform: scale(1.2);
+}
+
 ul.info li {
   font-size: 0.5rem;
 }
@@ -199,10 +201,6 @@ ul.info li {
 .tags li:not(:last-child) {
   margin-right: 0.6rem;
 }
-
-/* card/end */
-
-/* aboutMe/start */
 
 .aboutMe {
   border-top-right-radius: 5rem;
@@ -238,6 +236,11 @@ details[open] .summary {
 
 .lang > img {
   height: 3rem;
+  transition: transform 0.5s;
+}
+
+.lang:hover {
+  transform: scale(1.5);
 }
 
 summary {
