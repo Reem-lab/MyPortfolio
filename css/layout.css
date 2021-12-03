@@ -299,7 +299,6 @@ summary {
     display: flex;
     justify-content: center;
   }
-  }
 
   .ul-menu {
     display: flex;
@@ -318,6 +317,12 @@ summary {
 
   .header {
     padding: 40px 120px;
+  }
+
+  .footer p {
+    height: 102px;
+    width: 569px;
+    border-radius: 5px;
   }
 
   .wrapper {
@@ -340,6 +345,7 @@ summary {
 
   .social {
     width: 20%;
+    gap: 20px;
   }
 
   .card {
@@ -359,7 +365,7 @@ summary {
 
   summary {
     max-width: 100%;
-    border-bottom: 1px solid #DFE1E6 ; 
+    border-bottom: 1px solid #dfe1e6;
     padding-bottom: 23px;
   }
 
@@ -388,7 +394,7 @@ summary {
   }
 
   .qualifications {
-    color:  #344563;
+    color: #344563;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -401,10 +407,6 @@ summary {
     align-items: flex-start;
     width: 122px;
     height: 120px;
-  }
-
-  .social {
-    gap: 20px;
   }
 
   .btn {
@@ -430,12 +432,6 @@ summary {
     flex-direction: column;
     align-items: center;
     width: 40%;
-  }
-
-  .footer p {
-    height: 102px;
-    width: 569px;
-    border-radius: 5px;
   }
 
   .form,
