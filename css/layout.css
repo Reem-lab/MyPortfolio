@@ -17,6 +17,10 @@ body {
   padding-top: 1rem;
 }
 
+.wrapper {
+  padding: 0 1.3rem;
+}
+
 .intro .wrapper {
   padding: 0 1.5rem;
   min-height: 30rem;
@@ -40,16 +44,15 @@ body {
   padding-left: 0.5rem;
 }
 
-
 .social {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
   max-width: 50%;
   margin-top: 0.6rem;
 }
 
-.intro .wrapper > * + *:not(button),
-.content > * + *:not(button) {
+.content > * + *:not(button),
+.intro .wrapper > * + *:not(button) {
   margin-top: 0.6rem;
 }
 
@@ -124,18 +127,6 @@ button:disabled {
   width: 100%;
 }
 
-/* Generl Rules/end */
-
-/* Wrapper/start */
-
-.wrapper {
-  padding: 0 1.3rem;
-}
-
-/* Wrapper/end */
-
-/* header/start */
-
 .ul-menu {
   display: none;
 }
@@ -198,13 +189,13 @@ button:disabled {
   border-radius: 50%;
 }
 
-ul.info li {
-  font-size: 0.5rem;
-}
-
 .tags li {
   padding: 2px 5px;
   border-radius: 8px;
+}
+
+ul.info li {
+  font-size: 0.5rem;
 }
 
 .tags li:not(:last-child) {
@@ -307,8 +298,6 @@ summary {
     display: flex;
     justify-content: space-between;
   }
-
- 
 
   .main-nav {
     width: 35%;
@@ -416,8 +405,6 @@ summary {
   }
 
   .end {
-    /*width: 100vh;
-    margin: 100px;*/
     background-image: url("../images/footer-bg.svg");
     background-size: 100%;
     background-color: var(--accent);
@@ -448,8 +435,7 @@ summary {
     width: 447px;
   }
 
-
   .form button {
-      margin-left: 32%; 
+    margin-left: 32%;
   }
 }
