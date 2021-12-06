@@ -303,12 +303,11 @@ summary {
   .ul-menu {
     display: flex;
     justify-content: space-between;
-    transition: color 2s, font-size 1s;
+   transition: 0.8s;
   }
 
-  .ul-menu :hover {
+  .ul-menu li:hover {
     color: #396df2;
-    font-size: 22px;
   }
 
   .main-nav {
