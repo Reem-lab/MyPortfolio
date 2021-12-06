@@ -300,10 +300,15 @@ summary {
     justify-content: center;
   }
 
+  .languages li {
+    margin-right: 20px;
+    text-transform: capitalize;
+  }
+
   .ul-menu {
     display: flex;
     justify-content: space-between;
-   transition: 0.8s;
+    transition: 0.8s;
   }
 
   .ul-menu li:hover {
@@ -385,11 +390,6 @@ summary {
     height: 125px;
     margin: 15px;
     gap: 2px;
-  }
-
-  .languages li {
-    margin-right: 20px;
-    text-transform: capitalize;
   }
 
   .qualifications {
