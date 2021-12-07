@@ -17,6 +17,10 @@ body {
   padding-top: 1rem;
 }
 
+.address-cards {
+  display: none;
+}
+
 .wrapper {
   padding: 0 1.3rem;
 }
