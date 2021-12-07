@@ -8,6 +8,7 @@
   --gray: #7a869a;
   --gray-light: #e5e5e5;
   --white: #fff;
+  --darkblue: #0018f0;
 }
 
 * {
@@ -144,6 +145,7 @@ button:disabled {
   background-color: var(--blue-light, #ebebff);
   font-size: 0.6rem;
   letter-spacing: 0.03rem;
+  color: var(--darkblue);
 }
 
 .content p {
