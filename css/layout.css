@@ -57,6 +57,42 @@ body {
   display: block;
 }
 
+/*
+.container-Pop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.card-pop {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 343px;
+  height: 713px;
+  position: relative;
+}
+
+.btn2 {
+  display: flex;
+}
+
+.b1 {
+  width: 250px;
+}
+
+.container-Pop.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+*/
+
 .address-cards {
   display: none;
 }
