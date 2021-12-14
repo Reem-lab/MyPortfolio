@@ -334,7 +334,7 @@ summary {
 }
 
 @media screen and (min-width: 992px) {
-  .main-nav img {
+  .menu-icon {
     display: none;
   }
 
@@ -351,8 +351,18 @@ summary {
 
   .ul-menu {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     transition: 0.8s;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ul-menu a {
+    color: #344563;
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: normal;
   }
 
   .ul-menu li:hover {
@@ -361,6 +371,8 @@ summary {
 
   .main-nav {
     width: 35%;
+    margin-top: 30px;
+    all: unset;
   }
 
   .header {
