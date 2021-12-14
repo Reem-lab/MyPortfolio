@@ -21,14 +21,10 @@ body {
   position: absolute;
   inset: 0;
   background-color: #6070ffe0;
-  transform: translateX(-100%); 
+  transform: translateX(-100%);
   transition: 0.5s;
   z-index: 10;
-}
-
-.blurry {
-  filter: blur(6px);
-  -webkit-filter: blur(6px);
+  backdrop-filter: blur(0.25rem);
 }
 
 .overflow-hidden {
@@ -36,7 +32,7 @@ body {
 }
 
 .main-nav-active {
-  transform: translateX(0%); 
+  transform: translateX(0%);
 }
 
 .exit {
@@ -55,6 +51,10 @@ body {
 .ul-menu {
   flex-direction: column;
   margin: 50px;
+}
+
+.menu-icon {
+  display: block;
 }
 
 .address-cards {
