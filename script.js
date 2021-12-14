@@ -93,13 +93,13 @@ for (let i = 0; i < ProjectElments.length; i += 1) {
 }
 
 const btn = document.querySelector('.btn');
-const cardPop = document.querySelector('.card-pop');
+const cardPop = document.querySelector('.container-Pop');
 const exit = document.querySelector('.exit-card');
 
 btn.addEventListener('click', () => {
-  cardPop.style.display = flex;
+  cardPop.classList.add('show');
 });
 
 exit.addEventListener('click', () => {
-  cardPop.style.display = none;
+  cardPop.classList.remove('show');
 });
