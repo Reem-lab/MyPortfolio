@@ -17,6 +17,36 @@ body {
   padding-top: 1rem;
 }
 
+.main-nav {
+  position: absolute;
+  inset: 0;
+  background-color: #6070ffe0;
+  transform: translateX(-100%); 
+  transition: 0.5s;
+}
+
+.main-nav-active {
+  transform: translateX(0%); 
+}
+
+.exit {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+}
+
+.main-nav li {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.ul-menu {
+  flex-direction: column;
+  margin: 50px;
+}
+
 .address-cards {
   display: none;
 }
@@ -131,9 +161,9 @@ button:disabled {
   width: 100%;
 }
 
-.ul-menu {
+/* .ul-menu {
   display: none;
-}
+} */
 
 .main-nav:hover {
   cursor: pointer;
