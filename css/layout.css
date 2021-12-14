@@ -57,16 +57,15 @@ body {
   display: block;
 }
 
-/*
 .container-Pop {
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  pointer-events: none;
+  /* pointer-events: none; */
   width: 100%;
   height: 100%;
 }
@@ -79,19 +78,19 @@ body {
   position: relative;
 }
 
-.btn2 {
-  display: flex;
-}
-
-.b1 {
-  width: 250px;
+.exit-card {
+  color: #67798E;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
 }
 
 .container-Pop.show {
   pointer-events: auto;
   opacity: 1;
 }
-*/
 
 .address-cards {
   display: none;
