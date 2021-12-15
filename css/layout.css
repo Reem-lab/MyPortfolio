@@ -62,7 +62,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
    pointer-events: none; 
@@ -73,8 +73,12 @@ body {
   transform: translateX(-100%);
 }
 
-.show {
+.container-Pop.show {
   transform: translateX(0%);
+  position: absolute;
+  display: fixed;
+  top: 0;
+  left: 0;
 }
 
 .card-pop {
