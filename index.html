@@ -121,11 +121,12 @@
         <p>If you have an application you are interested in developing,
           a feature that you need built or a project that needs coding. I’d love to help with it </p>
   
-        <form class="form" action="https://formspree.io/f/mlezraod" method="POST">
+        <form class="form" id="form" action="https://formspree.io/f/mlezraod" method="POST">
           <input class="name" type="text" name="name" placeholder="Reem" maxlength="30" required>
-          <input class="email" type="email" name="email" placeholder="janinareem@gmail.com" required>
+          <input class="email" id="email" type="email" name="email" placeholder="janinareem@gmail.com" required>
           <textarea class="text-area" name="Write your message here" cols="30" rows="10" maxlength="500"
             placeholder="Write your message here" required></textarea>
+          <div class="errorMsg" id="errorMsg"></div>
           <button class="button bg round-borders cap " type="submit">Get It Touch</button>
         </form>
       </div>
