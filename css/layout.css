@@ -384,6 +384,13 @@ summary {
   padding: 20px 30px;
 }
 
+.errorMsg {
+  background-color: #fff;
+  width: 70%;
+  color: #f00;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 992px) {
   .menu-icon {
     display: none;
@@ -551,6 +558,7 @@ summary {
   .form button {
     margin-left: 32%;
   }
+
   .container-Pop {
     display: none;
   }
