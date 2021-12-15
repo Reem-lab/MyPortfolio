@@ -60,8 +60,8 @@ body {
 .container-Pop {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0;/*50*/
+  left: 0;/*50*/
   display: none;
   align-items: center;
   justify-content: center;
@@ -70,11 +70,11 @@ body {
   height: 100%;
   transition: 0.5s;
   z-index: 10;
-  transform: translateX(-100%);
+  transform: translateX(-100%);/*-50 -50 remove x*/
 }
 
 .container-Pop.show {
-  transform: translateX(0%);
+  transform: translateX(0%);/*remove*/
   position: fixed;
   top: 0;
   left: 0;
@@ -558,5 +558,10 @@ summary {
 
   .form button {
     margin-left: 32%;
+  }
+
+  .container-Pop {
+    display: flex;
+    flex-direction: row;
   }
 }
