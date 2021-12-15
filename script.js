@@ -98,8 +98,10 @@ const exit = document.querySelector('.exit-card');
 
 btn.addEventListener('click', () => {
   cardPop.classList.add('show');
+  body.classList.add('overflow-hidden');
 });
 
 exit.addEventListener('click', () => {
   cardPop.classList.remove('show');
+  body.classList.remove('overflow-hidden');
 });
