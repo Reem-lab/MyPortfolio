@@ -163,7 +163,7 @@ const regex = /[a-z]/;
 form.addEventListener('submit', (event) => {
   if (!regex.test(emailInput)) {
       event.preventDefault();
-      msg.textContent = '*The content of the email field has to be in lower case.';
+      msg.textContent = '*The email should contain onlu lowerCase letters!!';
   }
 });
 
