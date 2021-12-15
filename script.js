@@ -56,7 +56,7 @@ const cardPopUp = [
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveVersion: 'https://reem-lab.github.io/MyPortfolio/',
     source: 'https://github.com/Reem-lab/MyPortfolio'
-  },
+  }
 ];
 
 const ProjectElments = cardPopUp.map((ele, index) => {
@@ -133,7 +133,7 @@ const ProjectPopUp = (event) => {
           </div>
           </div> `;
 
-  const works2 = document.querySelector('#container-pop')
+  const works2 = document.querySelector('#container-pop');
   const cardPop = document.querySelector('.container-Pop');
   const body = document.querySelector('body');
   works2.appendChild(container);
@@ -162,8 +162,7 @@ const regex = /[a-z]/;
 
 form.addEventListener('submit', (event) => {
   if (!regex.test(emailInput)) {
-      event.preventDefault();
-      msg.textContent = '*The email should contain onlu lowerCase letters!!';
+    event.preventDefault();
+    msg.textContent = '*The email should contain only lowerCase letters!!';
   }
 });
-
