@@ -92,13 +92,50 @@ for (let i = 0; i < ProjectElments.length; i += 1) {
   works.appendChild(ProjectElments[i]);
 }
 
-const btn = document.querySelector('.btn');
+const ProjectPopUp = cardPopUp.map((ele2) => {
+  const container = document.createElement('article');
+  container.className = 'card flex flex-column bg';
+  container.setAttribute('id', 'card-popUp');
+  container.innerHTML = `
+      <img class="exit-card" src="images/exit2.svg" alt="exit">
+    <h3 class="heading bold cap">${ele2.name}</h3>
+    <ul class="info flex">
+      <li class="category flex cross-center ellipse line-height highlight uppe">CANOPY</li>
+      <li class="category flex cross-center ellipse line-height highlight uppe">Back End Dev</li>
+      <li class="category flex cross-center ellipse line-height highlight uppe">2015</li>
+    </ul>
+        <img src="${ele2.img}" alt="project photo">
+          <p>
+          ${ele2.description}
+          </p>
+          <ul class="tags flex">
+            <li class="line-height round-borders">${ele2.technologies[0]}</li>
+            <li class="line-height round-borders">${ele2.technologies[1]}</li>
+            <li class="line-height round-borders">${ele2.technologies[2]}</li>
+          </ul>
+          <div class="btn2">
+            <button class="b1 bg round-borders cap " type="button">see live <img src="images/arrowCir.svg" alt="goto"></button>
+            <button class="b2 bg round-borders cap " type="button">see Source <img src="images/cat.svg" alt="sourceCode"></button>
+          </div>`;
+  return container;
+});
+
+const works2 = document.querySelector('#container-pop');
+for (let i = 0; i < ProjectPopUp.length; i += 1) {
+  works2.appendChild(ProjectPopUp[i]);
+}
+
+const btn = document.querySelectorAll('.btn');
 const cardPop = document.querySelector('.container-Pop');
 const exit = document.querySelector('.exit-card');
+const body = document.querySelector('body');
 
-btn.addEventListener('click', () => {
-  cardPop.classList.add('show');
-  body.classList.add('overflow-hidden');
+
+btn.forEach((link) => {
+  link.addEventListener('click', () => {
+    cardPop.classList.add('show');
+    body.classList.add('overflow-hidden');
+  });
 });
 
 exit.addEventListener('click', () => {
