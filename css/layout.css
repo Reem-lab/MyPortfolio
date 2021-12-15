@@ -65,7 +65,7 @@ body {
   display: none;
   align-items: center;
   justify-content: center;
-   pointer-events: none; 
+  pointer-events: none;
   width: 100%;
   height: 100%;
   transition: 0.5s;
@@ -75,8 +75,7 @@ body {
 
 .container-Pop.show {
   transform: translateX(0%);
-  position: absolute;
-  display: fixed;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -97,6 +96,19 @@ body {
   width: 20px;
   height: 20px;
   align-self: flex-end;
+}
+
+.btn2 {
+  display: flex;
+}
+
+.b1,
+.b2 {
+  align-items: center;
+  width: 155px;
+  height: 48px;
+  margin: 10px;
+  font-size: 12px;
 }
 
 .container-Pop.show {
