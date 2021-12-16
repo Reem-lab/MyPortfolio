@@ -68,7 +68,6 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  transform: translate(-50% -50%);
 }
 
 .container-Pop.show {
@@ -86,7 +85,7 @@ body {
 }
 
 .exit-card {
-  color: #67798E;
+  color: #67798e;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -551,6 +550,7 @@ summary {
   .form button {
     margin-left: 32%;
   }
+
   .container-Pop {
     display: none;
   }
@@ -577,7 +577,7 @@ summary {
   .lang-btn {
     display: flex;
     flex-direction: column;
-   }
+  }
 
   .first {
     display: flex;
