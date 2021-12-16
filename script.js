@@ -121,7 +121,7 @@ const ProjectPopUp = (event) => {
           ${objItem.description}
           </p>
           <div class="lang-btn">
-          <ul class="tags flex">
+          <ul class="popUp-tags tags flex">
             <li class="line-height round-borders">${objItem.technologies[0]}</li>
             <li class="line-height round-borders">${objItem.technologies[1]}</li>
             <li class="line-height round-borders">${objItem.technologies[2]}</li>
