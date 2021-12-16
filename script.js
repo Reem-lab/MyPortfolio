@@ -23,4 +23,29 @@ function mobileMenu() {
 
 mobileMenu();
 
+const formStorage = document.querySelector('#form1');
+const nameTxt = formStorage.querySelector('#name1');
+const emailTxt = formStorage.querySelector('#email1');
+const msgTxt = formStorage.querySelector('#msg');
+
+const saveData = () => {
+  const dataList = {
+    name: nameTxt.value,
+    email: emailTxt.value,
+    msg: msgTxt.value,
+  };
+  localStorage.setItem('dataList', JSON.stringify(dataList));
+};
+
+nameTxt.addEventListener('change', saveData);
+emailTxt.addEventListener('change', saveData);
+msgTxt.addEventListener('change', saveData);
+
+window.addEventListener('load', () => {
+  const dataList = JSON.parse(localStorage.getItem('dataLis'));
+  nameTxt.value = dataList.name;
+  emailTxt.value = dataList.email;
+  msgTxt.value = dataList.msg;
+});
+
 
