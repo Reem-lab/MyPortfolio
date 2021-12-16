@@ -60,8 +60,8 @@ body {
 .container-Pop {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
-  top: 0;/*50*/
-  left: 0;/*50*/
+  top: 0;
+  left: 0;
   display: none;
   align-items: center;
   justify-content: center;
@@ -69,7 +69,6 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  transform: translate(-50% -50%);
 }
 
 .container-Pop.show {
@@ -86,7 +85,7 @@ body {
 }
 
 .exit-card {
-  color: #67798E;
+  color: #67798e;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -585,7 +584,7 @@ summary {
   .lang-btn {
     display: flex;
     flex-direction: column;
-   }
+  }
 
   .first {
     display: flex;

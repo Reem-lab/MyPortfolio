@@ -1,4 +1,4 @@
-function mobileMenu () {
+function mobileMenu() {
   const menuIcon = document.querySelector('#menu-icon');
   const mainNav = document.querySelector('.main-nav');
   const exitIcon = document.querySelector('.exit');
@@ -30,7 +30,7 @@ const cardPopUp = [
     img: 'images/snapshoot/snapshoot_1.svg',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveVersion: 'https://reem-lab.github.io/MyPortfolio/',
-    source: 'https://github.com/Reem-lab/MyPortfolio'
+    source: 'https://github.com/Reem-lab/MyPortfolio',
   },
 
   {
@@ -39,7 +39,7 @@ const cardPopUp = [
     img: 'images/snapshoot/snapshoot_2.svg',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveVersion: 'https://reem-lab.github.io/MyPortfolio/',
-    source: 'https://github.com/Reem-lab/MyPortfolio'
+    source: 'https://github.com/Reem-lab/MyPortfolio',
   },
   {
     name: 'tonic2',
@@ -47,7 +47,7 @@ const cardPopUp = [
     img: 'images/snapshoot/snapshoot_3.svg',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveVersion: 'https://reem-lab.github.io/MyPortfolio/',
-    source: 'https://github.com/Reem-lab/MyPortfolio'
+    source: 'https://github.com/Reem-lab/MyPortfolio',
   },
   {
     name: 'Multi-Post Stories2',
@@ -55,8 +55,8 @@ const cardPopUp = [
     img: 'images/snapshoot/snapshoot_4.svg',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     liveVersion: 'https://reem-lab.github.io/MyPortfolio/',
-    source: 'https://github.com/Reem-lab/MyPortfolio'
-  }
+    source: 'https://github.com/Reem-lab/MyPortfolio',
+  },
 ];
 
 const ProjectElments = cardPopUp.map((ele, index) => {
