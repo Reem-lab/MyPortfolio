@@ -37,9 +37,9 @@ const saveData = () => {
   localStorage.setItem('dataList', JSON.stringify(dataList));
 };
 
-nameTxt.addEventListener('change', saveData);
-emailTxt.addEventListener('change', saveData);
-msgTxt.addEventListener('change', saveData);
+nameTxt.addEventListener('input', saveData);
+emailTxt.addEventListener('input', saveData);
+msgTxt.addEventListener('input', saveData);
 
 window.addEventListener('load', () => {
   const dataList = JSON.parse(localStorage.getItem('dataList'));
