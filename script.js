@@ -1,4 +1,4 @@
-function mobileMenu () {
+function mobileMenu() {
   const menuIcon = document.querySelector('#menu-icon');
   const mainNav = document.querySelector('.main-nav');
   const exitIcon = document.querySelector('.exit');
@@ -32,7 +32,7 @@ const saveData = () => {
   const dataList = {
     name: nameTxt.value,
     email: emailTxt.value,
-    msg: msgTxt.value
+    msg: msgTxt.value,
   };
   localStorage.setItem('dataList', JSON.stringify(dataList));
 };
