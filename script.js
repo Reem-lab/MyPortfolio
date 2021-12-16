@@ -1,4 +1,4 @@
-function mobileMenu() {
+function mobileMenu () {
   const menuIcon = document.querySelector('#menu-icon');
   const mainNav = document.querySelector('.main-nav');
   const exitIcon = document.querySelector('.exit');
@@ -32,7 +32,7 @@ const saveData = () => {
   const dataList = {
     name: nameTxt.value,
     email: emailTxt.value,
-    msg: msgTxt.value,
+    msg: msgTxt.value
   };
   localStorage.setItem('dataList', JSON.stringify(dataList));
 };
@@ -42,10 +42,8 @@ emailTxt.addEventListener('change', saveData);
 msgTxt.addEventListener('change', saveData);
 
 window.addEventListener('load', () => {
-  const dataList = JSON.parse(localStorage.getItem('dataLis'));
+  const dataList = JSON.parse(localStorage.getItem('dataList'));
   nameTxt.value = dataList.name;
   emailTxt.value = dataList.email;
   msgTxt.value = dataList.msg;
 });
-
-
