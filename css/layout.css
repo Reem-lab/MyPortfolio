@@ -386,8 +386,12 @@ summary {
 .errorMsg {
   background-color: #fff;
   width: 70%;
-  color: #f00;
-  font-weight: bold;
+  margin: 10px;
+  color: black;
+  border-radius: 8px;
+  font-weight: normal;
+  align-self: center;
+  background-color: gray;
 }
 
 @media screen and (min-width: 992px) {
