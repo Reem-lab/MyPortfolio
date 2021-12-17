@@ -156,12 +156,12 @@ btn.forEach((link) => {
 
 const form = document.querySelector('#form');
 const email = document.querySelector('#email');
-const emailInput = email.value;
 const msg = document.querySelector('#errorMsg');
-const regex = /[a-z]/;
+const regex = /[A-Z]/;
 
 form.addEventListener('submit', (event) => {
-  if (!regex.test(emailInput)) {
+  const emailInput = email.value;
+  if (regex.test(emailInput)) {
     event.preventDefault();
     msg.textContent = '*The email should contain only lowerCase letters!!';
   }
