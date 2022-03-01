@@ -5,18 +5,18 @@
 
 > A Simple Software Engineer Portfolio App Made with Vanilla HTML5, CSS3. The Project Contains a Showcase with Information About Me, All of My Works (Apps), and a Contact Form for Communication
 
-![screenshot](images/app_screenshot.png)
 
-*A Screenshot of the Mobile Version of the Portfolio App*
+## Live Demo
+
+[Live Demo Link](https://reem-lab.github.io/MyPortfolio/)
+
+## Vedio Demo 
+
 
 ## Built With
 
 - Languages: _**HTML, CSS**_
 - Technologies used: _**GIT, GITHUB, LINTERS**_
-
-## Live Demo
-
-[Live Demo Link](https://reem-lab.github.io/MyPortfolio/)
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
   1. **Run** `git clone git@github.com:MrRamoun/README.git`
   2. **Run** `cd README/`
 
-### Install
+<!-- ### Install
 
 - install **Webhint** linter
 
@@ -70,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 - run **gulp**
   - **Run** `gulp <name-of-task>` on the root of your directory of your project.
 
-### Deployment
+### Deployment -->
 
 ## Authors
 

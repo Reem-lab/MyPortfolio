@@ -11,10 +11,14 @@ body {
 }
 
 .header {
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+}
+
+.header-name {
+  display: none;
 }
 
 .main-nav {
@@ -134,6 +138,15 @@ body {
 
 .heading {
   max-width: 18rem;
+}
+
+.li-menu {
+  width: 150px;
+  height: auto;
+}
+
+.ankor {
+  
 }
 
 .aboutMe .heading {
@@ -337,6 +350,8 @@ details[open] .summary {
 
 .languages {
   margin-top: 0.6rem;
+  flex-wrap: wrap;
+  overflow-y: scroll;
 }
 
 .lang > img {
@@ -418,8 +433,14 @@ summary {
   .ul-menu a {
     color: #344563;
     margin-right: 25px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: normal;
+  }
+
+  .header-name {
+    display: block;
+    width: 380px;
+    height: auto;
   }
 
   .ul-menu li:hover {
@@ -433,7 +454,7 @@ summary {
   }
 
   .header {
-    padding: 40px 120px;
+    padding: 40px;
   }
 
   .footer p {
@@ -449,6 +470,7 @@ summary {
 
   .wrapper p {
     margin-bottom: 25px;
+    font-size: 19px;
   }
 
   .intro .wrapper p {
