@@ -145,9 +145,7 @@ body {
   height: auto;
 }
 
-.ankor {
-  
-}
+
 
 .aboutMe .heading {
   width: 4rem;
@@ -466,6 +464,10 @@ summary {
   .wrapper {
     flex-direction: row;
     margin: 100px;
+  }
+
+  .introduction {
+    margin: 0;
   }
 
   .wrapper p {

@@ -20,21 +20,12 @@
 
 ## Getting Started
 
-**Start by cloning the repo and setup the gulpfile + linters.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-- [**npm**](https://nodejs.org) (**n**ode **p**ackage **m**anager) - to be able to install packages locally.
-- **A github Account** - to be able to use github actions.
-
 ### Setup
 
 - **Open** the terminal.
 - **Run** `cd \path\to\where\you\want\your\local\copy`
 - **Clone** the repo
-  1. **Run** `git clone git@github.com:MrRamoun/README.git`
+  1. **Run** `git clone git@github.com:Reem-lab/README.git`
   2. **Run** `cd README/`
 
 <!-- ### Install
