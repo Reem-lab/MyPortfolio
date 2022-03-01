@@ -58,92 +58,7 @@
     <h2 class="address-cards">My projects</h2>
 
   <section class="works margin-seprator flex main-center" id="works">
-    <div class="wrapper grid main-center">
-      <article class="card flex flex-column bg">
-        <img src="images/snapshoot/snapshoot_1.svg" alt="project photo">
-        <div class="content">
-          <h3 class="heading bold cap">Tonic</h3>
-          <ul class="info flex">
-            <li class="category flex cross-center ellipse line-height highlight uppe">CANOPY</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">Back End Dev</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">2015</li>
-          </ul>
-          <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="tags flex">
-            <li class="line-height round-borders">html</li>
-            <li class="line-height round-borders">css</li>
-            <li class="line-height round-borders">javaScript</li>
-          </ul>
-          <button class="bg round-borders cap " type="button">see project</button>
-        </div>
-      </article>
-
-      <article class="card flex flex-column bg row-reverse">
-        <img src="images/snapshoot/snapshoot_2.svg" alt="project photo">
-        <div class="content">
-          <h3 class="heading bold cap">Multi-Post
-            Stories</h3>
-          <ul class="info flex">
-            <li class="category flex cross-center ellipse line-height highlight uppe">CANOPY</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">Back End Dev</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">2015</li>
-          </ul>
-          <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="tags flex">
-            <li class="line-height round-borders">html</li>
-            <li class="line-height round-borders">css</li>
-            <li class="line-height round-borders">javaScript</li>
-          </ul>
-          <button class="bg round-borders cap " type="button">see project</button>
-        </div>
-      </article>
-
-      <article class="card flex flex-column bg">
-        <img src="images/snapshoot/snapshoot_3.svg" alt="project photo">
-        <div class="content">
-          <h3 class="heading bold cap">Tonic</h3>
-          <ul class="info flex">
-            <li class="category flex cross-center ellipse line-height highlight uppe">CANOPY</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">Back End Dev</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">2015</li>
-          </ul>
-          <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="tags flex">
-            <li class="line-height round-borders">html</li>
-            <li class="line-height round-borders">css</li>
-            <li class="line-height round-borders">javaScript</li>
-          </ul>
-          <button class="bg round-borders cap" type="button">see project</button>
-        </div>
-      </article>
-
-      <article class="card flex flex-column bg row-reverse">
-        <img src="images/snapshoot/snapshoot_4.svg" alt="project photo">
-        <div class="content">
-          <h3 class="heading bold cap">Multi-Post
-            Stories</h3>
-          <ul class="info flex">
-            <li class="category flex cross-center ellipse line-height highlight uppe">CANOPY</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">Back End Dev</li>
-            <li class="category flex cross-center ellipse line-height highlight uppe">2015</li>
-          </ul>
-          <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="tags flex">
-            <li class="line-height round-borders">html</li>
-            <li class="line-height round-borders">css</li>
-            <li class="line-height round-borders">javaScript</li>
-          </ul>
-          <button class="bg round-borders cap" type="button">see project</button>
-        </div>
-      </article>
+    <div id="pop-works" class="wrapper grid main-center">
     </div>
   </section>
 
@@ -206,17 +121,20 @@
         <p>If you have an application you are interested in developing,
           a feature that you need built or a project that needs coding. I’d love to help with it </p>
   
-        <form id="form1" class="form" action="https://formspree.io/f/mlezraod" method="POST">
-          <input id="name1" class="name" type="text" name="name" placeholder="Reem" maxlength="30" required>
-          <input id="email1" class="email" type="email" name="email" placeholder="janinareem@gmail.com" required>
-          <textarea id="msg" class="text-area" name="Write your message here" cols="30" rows="10" maxlength="500"
-            placeholder="Write your message here" required></textarea>
-          <button class="button bg round-borders cap " type="submit">Get It Touch</button>
-        </form>
+          <form class="form" id="form" action="https://formspree.io/f/mlezraod" method="POST">
+            <input class="name" type="text" name="name" placeholder="Reem" maxlength="30" required>
+            <input class="email" id="email" type="email" name="email" placeholder="janinareem@gmail.com" required>
+            <textarea class="text-area" name="Write your message here" cols="30" rows="10" maxlength="500"
+              placeholder="Write your message here" required></textarea>
+            <div class="errorMsg" id="errorMsg"></div>
+            <button class="button bg round-borders cap " type="submit">Get It Touch</button>
+          </form>
       </div>
     </section>
 
   </footer>
+  <div id="container-pop" class="container-Pop grid main-center">
+    </div>
 
   <script src="script.js"></script>
 </body>

@@ -57,6 +57,63 @@ body {
   display: block;
 }
 
+.container-Pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.container-Pop.show {
+  position: fixed;
+  display: flex;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.card-pop {
+  display: none;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.exit-card {
+  color: #67798e;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}
+
+.btn2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.popUp-tags {
+  margin-top: 20px;
+}
+
+.b1,
+.b2 {
+  align-items: center;
+  width: 155px;
+  height: 48px;
+  margin: 10px;
+  font-size: 12px;
+}
+
 .address-cards {
   display: none;
 }
@@ -499,5 +556,43 @@ summary {
 
   .form button {
     margin-left: 32%;
+  }
+
+  .container-Pop {
+    display: none;
+  }
+
+  .card-pop {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 950px;
+    overflow: auto;
+  }
+
+  .pro-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-pop {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .lang-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .b1,
+  .b2 {
+    margin-bottom: 20px;
   }
 }
