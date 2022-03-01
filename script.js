@@ -166,3 +166,23 @@ form.addEventListener('submit', (event) => {
     msg.textContent = '*The email should contain only lowerCase letters!!';
   }
 });
+
+const saveData = () => {
+  const dataList = {
+    name: nameTxt.value,
+    email: emailTxt.value,
+    msg: msgTxt.value,
+  };
+  localStorage.setItem('dataList', JSON.stringify(dataList));
+};
+
+nameTxt.addEventListener('input', saveData);
+emailTxt.addEventListener('input', saveData);
+msgTxt.addEventListener('input', saveData);
+
+window.addEventListener('load', () => {
+  const dataList = JSON.parse(localStorage.getItem('dataList'));
+  nameTxt.value = dataList.name;
+  emailTxt.value = dataList.email;
+  msgTxt.value = dataList.msg;
+});
