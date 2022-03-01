@@ -153,3 +153,16 @@ const btn = document.querySelectorAll('.btn');
 btn.forEach((link) => {
   link.addEventListener('click', ProjectPopUp);
 });
+
+const form = document.querySelector('#form');
+const email = document.querySelector('#email');
+const msg = document.querySelector('#errorMsg');
+const regex = /[A-Z]/;
+
+form.addEventListener('submit', (event) => {
+  const emailInput = email.value;
+  if (regex.test(emailInput)) {
+    event.preventDefault();
+    msg.textContent = '*The email should contain only lowerCase letters!!';
+  }
+});
