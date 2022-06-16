@@ -32,15 +32,6 @@ const cardPopUp = [
     liveVersion: 'https://reem-lab.github.io/AwesomeBooks/',
     source: 'https://github.com/Reem-lab/AwesomeBooks',
   },
-
-  {
-    name: 'To Do List',
-    description: 'This project is just to Do list that you can add list of some tasks that you want to do it, So you can remember it and you can remove what you already did.',
-    img: 'images/todos1.PNG',
-    technologies: ['JavaScript', 'HTML', 'CSS', 'webpack'],
-    liveVersion: 'https://reem-lab.github.io/To-Do-List/index',
-    source: 'https://github.com/Reem-lab/To-Do-List',
-  },
   {
     name: 'Adopte Me 🐶🐱🐦',
     description: 'This project is real worl application contain some animals that I get it from API and I show it to the user and he can choose by select your location and the animal that you want to adopt then you can a list of breed for this animal. if you press any of them you can go to page and hold it.',
@@ -56,6 +47,23 @@ const cardPopUp = [
     technologies: ['JavaScript', 'HTML', 'CSS', 'CSS3'],
     liveVersion: 'https://reem-lab.github.io/BankApp-Array/',
     source: 'https://github.com/Reem-lab/BankApp-Array',
+  },
+  {
+    name: 'Budget App',
+    description: 'Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what',
+    img: 'images/buget1.PNG',
+    technologies: ['Ruby', 'ruby on rails', 'bootsrape', 'rspec', 'heroku'],
+    liveVersion: 'https://agile-atoll-37898.herokuapp.com/',
+    source: 'https://github.com/Reem-lab/budget-app',
+  },
+  
+  {
+    name: 'Recipe app',
+    description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+    img: 'images/recipe1.PNG',
+    technologies: ['Ruby', 'ruby on rails', 'bootsrape', 'rspec', 'heroku'],
+    liveVersion: 'https://powerful-mountain-66036.herokuapp.com/',
+    source: 'https://github.com/Reem-lab/Recipe-app',
   },
 ];
 

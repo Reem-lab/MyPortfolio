@@ -65,7 +65,6 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  display: none;
   align-items: center;
   justify-content: center;
   pointer-events: none;
