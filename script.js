@@ -33,7 +33,7 @@ const cardPopUp = [
     source: 'https://github.com/Reem-lab/AwesomeBooks',
   },
   {
-    name: 'Adopte Me 🐶🐱🐦',
+    name: 'Adopte Me',
     description: 'This project is real worl application contain some animals that I get it from API and I show it to the user and he can choose by select your location and the animal that you want to adopt then you can a list of breed for this animal. if you press any of them you can go to page and hold it.',
     img: 'images/adopt1.PNG',
     technologies: ['JavaScript', 'HTML', 'CSS', 'Reactjs'],

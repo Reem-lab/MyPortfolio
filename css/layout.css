@@ -62,12 +62,12 @@ body {
 }
 
 .container-Pop {
-  position: fixed;
+  /* position: fixed; */
   top: 50%;
   left: 50%;
   align-items: center;
   justify-content: center;
-  pointer-events: none;
+  /* pointer-events: none; */
   width: 100vw;
   height: 100vh;
   z-index: 10;
@@ -581,9 +581,9 @@ summary {
     margin-left: 32%;
   }
 
-  .container-Pop {
+  /* .container-Pop {
     display: none;
-  }
+  } */
 
   .card-pop {
     display: flex;
